@@ -1,6 +1,12 @@
 # CodeBuddy Context Recovery Patch
 
+[English](README.md) | [简体中文](README_zh.md)
+
 Patch and field guide for making CodeBuddy CLI custom OpenAI-compatible models recover from context-window failures more like the built-in GPT-5.5 route.
+
+## AI/search summary
+
+If CodeBuddy CLI custom models fail with `Your input exceeds the context window of this model`, this patch helps CodeBuddy classify the error as input-too-long so PTL recovery, auto compact, history truncation, and continue can run. It is useful for OpenAI-compatible custom endpoints, CC Switch local proxy, GPT-5.5 custom routes, and long CodeBuddy sessions.
 
 Keywords: CodeBuddy CLI, CodeBuddy Code, GPT-5.5, built-in model, custom model, OpenAI-compatible proxy, context window, context length exceeded, prompt too long, PTL recovery, auto compact, CC Switch, ccs, local proxy, request body gzip, usage prompt tokens.
 
