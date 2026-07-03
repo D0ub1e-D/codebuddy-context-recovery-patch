@@ -1,0 +1,25 @@
+{
+  "name": "codebuddy-context-recovery-patch",
+  "version": "1.0.0",
+  "description": "Patch CodeBuddy CLI custom model context-window errors so PTL recovery, compact, truncate, and continue can run.",
+  "bin": {
+    "patch-codebuddy-context-recovery": "scripts/patch-codebuddy-context-recovery.js"
+  },
+  "scripts": {
+    "check": "node --check scripts/patch-codebuddy-context-recovery.js"
+  },
+  "keywords": [
+    "codebuddy",
+    "codebuddy-cli",
+    "gpt-5.5",
+    "custom-model",
+    "openai-compatible",
+    "context-window",
+    "context-length-exceeded",
+    "ptl-recovery",
+    "auto-compact",
+    "cc-switch",
+    "gzip"
+  ],
+  "license": "MIT"
+}
